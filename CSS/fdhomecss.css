@@ -1,0 +1,152 @@
+nav {
+  background-color: #0b0e1c;
+  border: 1px solid #8c4fff;
+  box-shadow: #6b4df6 0px 0px 20px;
+  overflow: hidden;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+nav a {
+  color: #8c4fff;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+}
+nav a:hover {
+  color: #c2c8d1;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0b0e1c;
+  color: #333;
+}
+main h1,
+#parainmain {
+  text-align: center;
+  color: #c2c8d1;
+  margin-top: 20px;
+}
+header {
+  background-image: linear-gradient(
+    to right,
+    #0b0e1c,
+    #111317,
+    #111317,
+    #0b0e1c
+  );
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+p {
+  color: #e2e6eb;
+}
+a {
+  text-decoration: none;
+  color: #8c4fff;
+}
+main {
+  padding: 20px;
+}
+footer {
+  background-color: #111317;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: #f8057b;
+  text-decoration: none;
+}
+
+body header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #c2c8d1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #c2c8d1;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+section {
+  margin: 30px;
+  padding: 20px;
+  background-color: #6b4df6;
+  background-image: linear-gradient(
+    to right,
+    #111317,
+    #0b0e1c,
+    #0b0e1c,
+    #111317
+  );
+  border: 1px solid #8c4fff;
+  box-shadow: #6b4df6 0px 0px 20px;
+  border-radius: 5px;
+}
+section:hover {
+  background-color: #8c4fff;
+  box-shadow: #6b4df6 0px 0px 30px;
+  transform: scale(1.02);
+}
+
+/* FouthDomain Homepage CSS Styles */
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  nav a {
+    padding: 10px;
+    text-align: center;
+  }
+}
+header div#banner div#logo img {
+  width: 100px;
+  height: auto;
+  border: 1px solid goldenrod;
+  box-shadow: goldenrod 0px 0px 20px;
+  border-radius: 50%;
+}
+header div#banner {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  text-align: center;
+  margin-left: 10px;
+}
+header div#banner div#afterlogo {
+  margin-left: 10px;
+  margin-top: 15px;
+  color: gold;
+  text-shadow: gold 10px 10px 20px;
+}
+header div#banner div#afterlogo:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+/* End of FouthDomain/fdhomecss.css */
+/* --- a/file:///c%3A/Users/sahoo/VsCodeEditor/FouthDomain/fdhomecss.css */
+/* +++ b/file:///c%3A/Users/sahoo/VsCodeEditor/FouthDomain/fdhomecss.css */
+/* This file contains the CSS styles for the FouthDomain homepage */
+/* It styles the navigation bar, header, main content area, and footer */
+/* It also includes responsive design for smaller screens */
+/* The navigation bar has a dark background with white text */
+/* The header has a green background with white text */

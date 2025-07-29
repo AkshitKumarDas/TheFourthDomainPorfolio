@@ -1,0 +1,38 @@
+hr {
+  border: 1px solid silver;
+  margin: 20px auto;
+  width: 80%;
+}
+.devos {
+  flex-wrap: nowrap;
+  gap: 4px;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: silver;
+  margin: 24px auto;
+  box-sizing: border-box;
+  background: transparent;
+  padding: 0; /* Remove extra padding */
+  flex-direction: column;
+}
+.devos p {
+  margin: 4px 0; /* Reduced vertical margin for name and position */
+  color: gold;
+  font-weight: bold;
+}
+.dev-img {
+  width: 140px; /* Reduced to fit with shadow */
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: #6b4df6 0px 0px 20px;
+  border: 2px solid #8c4fff;
+  transition: transform 0.3s ease;
+  margin-bottom: 12px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
